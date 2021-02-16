@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
+
+    <!-- md bootstrap -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <title>Binmas Online System</title>
+  </head>
+  <body>
+    
+
+    <!-- navbar -->
+    <nav class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between" id="nav-container">
+            <div class="brand">
+                <a href="" class="navbar-brand d-flex " style="align-items: center;">
+                    <img src="img/Binmas.svg" class="d-block" width="40px" alt="" srcset="">
+                    <p class="nav-text d-flex flex-column">
+                        <h5 class="text-white d-inline " style=" font-size: 15px ; position: relative;" >BINMAS Online System
+                          <br><span style=" position: absolute;  font-weight: normal; font-size: 8px;"> PEMBINAAN MASYARAKAT ONLINE SISTEM </span>
+                        </h5>
+                    </p>
+                </a>
+            </div>
+                <div class="d-flex align-items-center justify-content-between" style="height: 100%; width: 144px;">
+                  <div class="nama-atas">
+                    <h6 style="font-size: 12px; color: #fff;" class="mb-0">Karno Nur Cahyo
+                      <span style="font-size: 10px; font-weight: normal;">Bhabinkamtibnas Desa Kaliwungu</span>
+                      </h6>
+                  </div>
+                  <img src="img/user/karno.png" id="user" width="34px" class="d-block mx-auto"  alt="" srcset="">
+                </div>
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+    <br>
+    <br>
+    <br>
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-image">
+              <img src="img/carousel1.jpg" class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-caption d-md-block">
+              <h5>Door to Door System (DDS)</h5>
+              <p>Giat Babhinkamtibmas    Buku 1</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image">
+              <img src="img/carousel2.jpg" class="d-block w-100 carousel-image" alt="...">
+            </div>
+            <div class="carousel-caption  d-md-block">
+              <h5>Kegiatan Desa</h5>
+              <p>Giat Babhinkamtibmas Buku 1</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image">
+              <img src="img/carousel3.jpg" class="d-block w-100 carousel-image" alt="...">
+            </div>
+            <div class="carousel-caption d-md-block">
+              <h5>Problem Solving (PS)</h5>
+              <p>Giat Babhinkamtibmas Buku 1</p>
+            </div>
+          </div>
+
+      
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    <!-- end carousel -->
+
+
+
+   
+  
+
+    <div class="py-3" style="background: #274C77;">
+        <h5 class="text-center text-white">Berita Terkini</h5>
+    </div>
+
+    <!-- card slick -->
+    <div >
+   <div id="slick">
+    
+    <div class="card video" style="overflow: hidden;" >
+      <video src="video/video1.mp4"  id="bhabin-video1" muted="muted" width="100%"></video>
+      <div class="card-body pb-0" style="margin-top: -69px; z-index: 3; position: relative;">
+        <div class="caption d-flex justify-content-between">
+          <div style="line-height: 5px ; color: aliceblue; ">
+            <h5>Problem Solving</h5>
+            <p style="font-size: 12px;">Jum'at, 7 Februari 2020</p>
+          </div>
+            <button class="play d-flex align-items-center justify-content-center " data-videoid="bhabin-video1" > <i class="fas fa-play text-white"></i> </button>         
+            
+        </div>
+      </div>
+    </div>
+     
+    <div class="card video" style="overflow: hidden;" >
+      <video src="video/video1.mp4"  id="bhabin-video2" muted="muted" width="100%"></video>
+      <div class="card-body pb-0" style="margin-top: -69px; z-index: 3; position: relative;">
+        <div class="caption d-flex justify-content-between">
+          <div style="line-height: 5px ; color: aliceblue; ">
+            <h5>Problem Solving</h5>
+            <p style="font-size: 12px;">Jum'at, 7 Februari 2020</p>
+          </div>
+            <button class="play d-flex align-items-center justify-content-center " data-videoid="bhabin-video2" > <i class="fas fa-play text-white"></i> </button>         
+            
+        </div>
+      </div>
+    </div>
+     
+  
+     
+    <div class="card video" style="overflow: hidden;" >
+      <video src="video/video1.mp4"  id="bhabin-video3" muted="muted" width="100%"></video>
+      <div class="card-body pb-0" style="margin-top: -69px; z-index: 3; position: relative;">
+        <div class="caption d-flex justify-content-between">
+          <div style="line-height: 5px ; color: aliceblue; ">
+            <h5>Problem Solving</h5>
+            <p style="font-size: 12px;">Jum'at, 7 Februari 2020</p>
+          </div>
+            <button class="play d-flex align-items-center justify-content-center " data-videoid="bhabin-video3" > <i class="fas fa-play text-white"></i> </button>         
+            
+        </div>
+      </div>
+    </div>
+     
+  
+ 
+     
+   </div>
+  </div>
+
+   
+    <!-- end image slick -->
+ 
+
+
+    <a href="#" class="button-top">
+      <img src="img/button.svg" width="30px" alt="" srcset="">
+    </a>
+
+    <!-- tab -->
+
+    <div class="table-responsive">
+
+    <div class="tab px-3">
+      <button class="tab-links active" onclick="openTab(event , 'berita')">
+        BERITA TERKINI
+      </button>
+      <button class="tab-links" onclick="openTab(event , 'dokumentasi')">
+        DOKUMENTASI KEGIATAN
+      </button>
+      <button class="tab-links" onclick="openTab(event , 'uu')">
+        UU & PERATURAN
+      </button>
+      <button class="tab-links" onclick="openTab(event , 'baru')">
+        APA YANG BARU
+      </button>
+    </div>
+  </div>
+
+
+   
+  
+  
+  <!-- tab -->
+  <div class="row container-tab-content d-flex" id="berita">
+    <div class="col-md-9">
+      <!-- untuk kontent tanggal dan isi berita -->
+      <div class="content-left" id="berita">
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <p class="text-center mb-0">10/2/2021</p>
+          </div>
+
+          <div class="col-md ">
+            <div style="margin-left: 20px !important ; margin-top: 30px !important;">
+              <p style=" color: #1E4588; font-weight: bold;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+  
+                <p class="desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eaque voluptate obcaecati, saepe ullam suscipit sunt molestias dolorem voluptatem cumque voluptates totam laboriosam sint iure corporis aliquam dolores. Hic deleniti debitis nisi aut quo omnis dolores error veniam deserunt.
+                </p> 
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <p class="text-center mb-0">10/2/2021</p>
+          </div>
+
+          <div class="col-md ">
+            <div style="margin-left: 20px !important ; margin-top: 30px !important;">
+              <p style=" color: #1E4588; font-weight: bold;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+  
+                <p class="desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eaque voluptate obcaecati, saepe ullam suscipit sunt molestias dolorem voluptatem cumque voluptates totam laboriosam sint iure corporis aliquam dolores. Hic deleniti debitis nisi aut quo omnis dolores error veniam deserunt.
+                </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- kontent sebelah kanan -->
+    <div class="col-md-3" style="padding: 0px 20px;">
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3">
+        <div class="col-md-12">
+          <div style="margin-top: 30px ;">
+            <div class="iklan-container">
+              <div class="iklan mx-auto" style="width: 80%;">
+                <img src="img/iklan.svg"  alt="" srcset="">
+                <img src="img/iklan.svg"  alt="" srcset="">
+                <img src="img/iklan.svg"  alt="" srcset="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3 ">
+        <div class="col-md-12">
+          <div style="padding: 10px 0; background: #1E4588;  border-radius: 8px;">
+            <p style="text-transform: uppercase; text-align: center; font-weight: 600; color: #fff; margin-bottom: 0;"> media sosial </p>
+           
+          </div>
+          <div class="d-flex justify-content-center my-4">
+            <div style="line-height: 6px;">
+              <img src="img/instagram.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Instagram</p>
+              <p class="text-center" style="font-size: 14px; ">@korbinmas_</p>
+              
+            </div>
+            <div style="line-height: 6px; margin-left: 20px;">
+              <img src="img/twitter.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Twitter</p>
+              <p class="text-center" style="font-size: 14px; ">@BinmasOnline</p>
+              
+            </div>
+            <div style="line-height: 6px; margin-left: 20px; width: fit-content !important; padding: 0;">
+              <img src="img/facebook.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Facebook</p>
+              <p class="text-center" style="font-size: 14px; line-height: normal;">
+                Binmas Online System 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3 ">
+        <div class="col-md-12">
+          <div style="padding: 10px 0; background: #1E4588;  border-radius: 8px;">
+            <p style="text-transform: uppercase; text-align: center; font-weight: 600; color: #fff; margin-bottom: 0;"> Layanan Masyarakat </p>
+           
+          </div>
+          <div class="d-flex justify-content-between my-4">
+            <div style="line-height: 6px;">
+              <img src="img/phone.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Call Center</p>
+              <p class="text-center" style="font-size: 13px; ">021-7218141</p>
+              
+            </div>
+            <div style="line-height: 6px;">
+              <img src="img/sms.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">SMS Center</p>
+              <p class="text-center" style="font-size: 13px; ">0451387628942</p>
+              
+            </div>
+            <div style="line-height: 6px;  width: fit-content !important; padding: 0;">
+              <img src="img/mail.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Email Center</p>
+              <p class="text-center" style="font-size: 13px; ">
+                korbinmas@polri.go.id 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3">
+        <div class="col-md-12">
+          
+        </div>
+      </div>
+      <!-- end row -->
+    </div>
+  </div>
+
+  <!-- end tab -->
+  <!-- tab -->
+  <div class="row container-tab-content mb-5" id="dokumentasi">
+    <div class="col-md-9">
+      <!-- untuk kontent tanggal dan isi berita -->
+      <div class="content-left"  >
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <img src="img/dokumentasi/img1.png" width="90%" class="d-block mx-auto" alt="">
+          </div>
+
+          <div class="col-md ">
+            <div style="margin-left: 20px !important ; margin-top: 30px !important;">
+              <p style="color: #1E4588; font-weight: bold;">Minggu, 10 Mei 2019</p>
+              <p style=" color: #1E4588; font-weight: bold;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+  
+                <p class="desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eaque voluptate obcaecati, saepe ullam suscipit sunt molestias dolorem voluptatem cumque voluptates totam laboriosam sint iure corporis aliquam dolores. Hic deleniti debitis nisi aut quo omnis dolores error veniam deserunt.
+                </p> 
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <img src="img/dokumentasi/img2.png" width="90%" class="d-block mx-auto" alt="">
+          </div>
+
+          <div class="col-md ">
+            <div style="margin-left: 20px !important ; margin-top: 30px !important;">
+              <p style="color: #1E4588; font-weight: bold;">Minggu, 10 Mei 2019</p>
+              <p style=" color: #1E4588; font-weight: bold;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+  
+                <p class="desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eaque voluptate obcaecati, saepe ullam suscipit sunt molestias dolorem voluptatem cumque voluptates totam laboriosam sint iure corporis aliquam dolores. Hic deleniti debitis nisi aut quo omnis dolores error veniam deserunt.
+                </p> 
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <img src="img/dokumentasi/img3.png" width="90%" class="d-block mx-auto" alt="">
+          </div>
+
+          <div class="col-md ">
+            <div style="margin-left: 20px !important ; margin-top: 30px !important;">
+              <p style="color: #1E4588; font-weight: bold;">Minggu, 10 Mei 2019</p>
+              <p style=" color: #1E4588; font-weight: bold;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+  
+                <p class="desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eaque voluptate obcaecati, saepe ullam suscipit sunt molestias dolorem voluptatem cumque voluptates totam laboriosam sint iure corporis aliquam dolores. Hic deleniti debitis nisi aut quo omnis dolores error veniam deserunt.
+                </p> 
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- kontent sebelah kanan -->
+    <div class="col-md-3" style="padding: 0px 20px;">
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3">
+        <div class="col-md-12">
+          <div style="margin-top: 30px ;">
+            <div class="iklan-container">
+              <div class="iklan mx-auto" style="width: 80%;">
+                <img src="img/iklan.svg"  alt="" srcset="">
+                <img src="img/iklan.svg"  alt="" srcset="">
+                <img src="img/iklan.svg"  alt="" srcset="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3 ">
+        <div class="col-md-12">
+          <div style="padding: 10px 0; background: #1E4588;  border-radius: 8px;">
+            <p style="text-transform: uppercase; text-align: center; font-weight: 600; color: #fff; margin-bottom: 0;"> media sosial </p>
+           
+          </div>
+          <div class="d-flex justify-content-center my-4">
+            <div style="line-height: 6px;">
+              <img src="img/instagram.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Instagram</p>
+              <p class="text-center" style="font-size: 14px; ">@korbinmas_</p>
+              
+            </div>
+            <div style="line-height: 6px; margin-left: 20px;">
+              <img src="img/twitter.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Twitter</p>
+              <p class="text-center" style="font-size: 14px; ">@BinmasOnline</p>
+              
+            </div>
+            <div style="line-height: 6px; margin-left: 20px; width: fit-content !important; padding: 0;">
+              <img src="img/facebook.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Facebook</p>
+              <p class="text-center" style="font-size: 14px; line-height: normal;">
+                Binmas Online System 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3 ">
+        <div class="col-md-12">
+          <div style="padding: 10px 0; background: #1E4588;  border-radius: 8px;">
+            <p style="text-transform: uppercase; text-align: center; font-weight: 600; color: #fff; margin-bottom: 0;"> Layanan Masyarakat </p>
+           
+          </div>
+          <div class="d-flex justify-content-between my-4">
+            <div style="line-height: 6px;">
+              <img src="img/phone.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Call Center</p>
+              <p class="text-center" style="font-size: 13px; ">021-7218141</p>
+              
+            </div>
+            <div style="line-height: 6px;">
+              <img src="img/sms.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">SMS Center</p>
+              <p class="text-center" style="font-size: 13px; ">0451387628942</p>
+              
+            </div>
+            <div style="line-height: 6px;  width: fit-content !important; padding: 0;">
+              <img src="img/mail.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Email Center</p>
+              <p class="text-center" style="font-size: 13px; ">
+                korbinmas@polri.go.id 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3">
+        <div class="col-md-12">
+          
+        </div>
+      </div>
+      <!-- end row -->
+    </div>
+  </div>
+
+  <!-- end tab -->
+  <!-- tab -->
+  <div class="row container-tab-content mb-5" id="uu">
+    <div class="col-md-9">
+      <!-- untuk kontent tanggal dan isi berita -->
+      <div class="content-left mt-3"  >
+      <div class="row px-4">
+        <div class="col-md-12">
+          <div class="card border-0">
+            <div class="card-header pb-0 px-0" style="background: none !important; border-radius: 10px; border: 2px solid #A7BEE5;">
+              <p style="color: #1E4588 ; margin-bottom: 0 !important; border: none ; margin-left: 30px;">Filter Pencarian UU & PERATURAN</p>
+              <!-- search box -->
+              <div class="search-box " style="background: #A7BEE5;">
+                <div class="input-group mt-2">
+                  <input type="text" style="margin: 20px 3%;" name=""  id="searchUU">
+                  <!-- filter -->
+                  <select name="filter" id="filter">
+                    <option value="filter">Filter</option>
+                  </select>
+                  <select name="sort" style="margin-left: 10px !important;" id="sort">
+                    <option value="urutkan">Urutkan</option>
+                  </select>
+
+                  <button type="submit" id="submit">Cari</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- table -->
+      <div class="row px-4 mt-4">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table">
+              <thead >
+                <tr>
+                  <td scope="col"> Dokumen</td>
+                  <td scope="col"> Nama Dokumen</td>
+                  <td scope="col"> Ukuran File</td>
+                  <td scope="col"> Tanggal Unggah</td>
+                  <td scope="col"> Unduh</td>
+                </tr>
+              </thead>
+              
+              <tbody>
+                <tr>
+                  <td style="padding: 20px 0 !important; "><img class="d-block mx-auto" src="img/uu/pdf.svg" width="46px" alt="" srcset=""></td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >SOP PERIZINAN POLRI</td>
+                  <td style="padding: 20px 0 !important; height: 89px;" >272.04 KB</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >27 Feb 2020</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  ><button class="unduh"> Unduh </button></td>
+                </tr>
+                <tr>
+                  <td style="padding: 20px 0 !important; "><img class="d-block mx-auto" src="img/uu/pdf.svg" width="46px" alt="" srcset=""></td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >SOP PERIZINAN POLRI</td>
+                  <td style="padding: 20px 0 !important; height: 89px;" >272.04 KB</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >27 Feb 2020</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  ><button class="unduh"> Unduh </button></td>
+                </tr>
+                <tr>
+                  <td style="padding: 20px 0 !important; "><img class="d-block mx-auto" src="img/uu/pdf.svg" width="46px" alt="" srcset=""></td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >SOP PERIZINAN POLRI</td>
+                  <td style="padding: 20px 0 !important; height: 89px;" >272.04 KB</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >27 Feb 2020</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  ><button class="unduh"> Unduh </button></td>
+                </tr>
+                <tr>
+                  <td style="padding: 20px 0 !important; "><img class="d-block mx-auto" src="img/uu/pdf.svg" width="46px" alt="" srcset=""></td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >SOP PERIZINAN POLRI</td>
+                  <td style="padding: 20px 0 !important; height: 89px;" >272.04 KB</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >27 Feb 2020</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  ><button class="unduh"> Unduh </button></td>
+                </tr>
+                <tr>
+                  <td style="padding: 20px 0 !important; "><img class="d-block mx-auto" src="img/uu/pdf.svg" width="46px" alt="" srcset=""></td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >SOP PERIZINAN POLRI</td>
+                  <td style="padding: 20px 0 !important; height: 89px;" >272.04 KB</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >27 Feb 2020</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  ><button class="unduh"> Unduh </button></td>
+                </tr>
+                <tr>
+                  <td style="padding: 20px 0 !important; "><img class="d-block mx-auto" src="img/uu/pdf.svg" width="46px" alt="" srcset=""></td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >SOP PERIZINAN POLRI</td>
+                  <td style="padding: 20px 0 !important; height: 89px;" >272.04 KB</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  >27 Feb 2020</td>
+                  <td style="padding: 20px 0 !important; height: 89px;"  ><button class="unduh"> Unduh </button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- kontent sebelah kanan -->
+    <div class="col-md-3" style="padding: 0px 20px;">
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3">
+        <div class="col-md-12">
+          <div style="margin-top: 30px ;">
+            <div class="iklan-container">
+              <div class="iklan mx-auto" style="width: 80%;">
+                <img src="img/iklan.svg"  alt="" srcset="">
+                <img src="img/iklan.svg"  alt="" srcset="">
+                <img src="img/iklan.svg"  alt="" srcset="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3 ">
+        <div class="col-md-12">
+          <div style="padding: 10px 0; background: #1E4588;  border-radius: 8px;">
+            <p style="text-transform: uppercase; text-align: center; font-weight: 600; color: #fff; margin-bottom: 0;"> media sosial </p>
+           
+          </div>
+          <div class="d-flex justify-content-center my-4">
+            <div style="line-height: 6px;">
+              <img src="img/instagram.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Instagram</p>
+              <p class="text-center" style="font-size: 14px; ">@korbinmas_</p>
+              
+            </div>
+            <div style="line-height: 6px; margin-left: 20px;">
+              <img src="img/twitter.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Twitter</p>
+              <p class="text-center" style="font-size: 14px; ">@BinmasOnline</p>
+              
+            </div>
+            <div style="line-height: 6px; margin-left: 20px; width: fit-content !important; padding: 0;">
+              <img src="img/facebook.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Facebook</p>
+              <p class="text-center" style="font-size: 14px; line-height: normal;">
+                Binmas Online System 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3 ">
+        <div class="col-md-12">
+          <div style="padding: 10px 0; background: #1E4588;  border-radius: 8px;">
+            <p style="text-transform: uppercase; text-align: center; font-weight: 600; color: #fff; margin-bottom: 0;"> Layanan Masyarakat </p>
+           
+          </div>
+          <div class="d-flex justify-content-between my-4">
+            <div style="line-height: 6px;">
+              <img src="img/phone.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Call Center</p>
+              <p class="text-center" style="font-size: 13px; ">021-7218141</p>
+              
+            </div>
+            <div style="line-height: 6px;">
+              <img src="img/sms.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">SMS Center</p>
+              <p class="text-center" style="font-size: 13px; ">0451387628942</p>
+              
+            </div>
+            <div style="line-height: 6px;  width: fit-content !important; padding: 0;">
+              <img src="img/mail.svg" class="d-block mx-auto" width="30px" alt="" srcset="">
+              <p class="text-center mt-3" style="font-size: 14px; font-weight: 500;">Email Center</p>
+              <p class="text-center" style="font-size: 13px; ">
+                korbinmas@polri.go.id 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+      <!-- row untuk setiap kontent sebelah kanan -->
+      <div class="row mb-3">
+        <div class="col-md-12">
+          
+        </div>
+      </div>
+      <!-- end row -->
+    </div>
+  </div>
+
+  <!-- end tab -->
+
+
+    <!-- footer -->
+    <footer style="background: #274C77; padding: 20px 0 0 0;">
+     <div class="head">
+       <div class="container-footer1">
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Laporan</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Pusat Informasi Kamtibmas</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Lokasi Personel</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Achievement</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Jukras</p>
+          </div>
+       </div>
+       <div class="container-footer2">
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Atensi</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Halo Babhinkamtibmas</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Anev Kamtibmas</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Help</p>
+          </div>
+          <div class="footer-item">
+            <p style="margin-bottom: 0;">Logout</p>
+          </div>
+       </div>
+     </div>
+     <div style="background: #FFF000; padding: 4px 0;"></div>
+     <div style="background:#1E4588; padding: 20px 0; white-space: normal;" class="text-center text-white "> 
+      <h5>KORBINMAS BAHARKAM POLRI</h5> 
+      <p>Jalan Trunojoyo No. 3, Kebayoran Baru, Jakarta Selatan, DKI Jakarta. 12110
+        (021) 7218141</p>
+    </div>
+
+    <div style="background:#FFF000; padding: 10px;">
+        <p class="text-center  text-body " style=" margin-bottom: 0; font-size: 10px;">Copyright © 2021 Binmas Kepolisian Negara Republik Indonesia</p>
+    </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+
+	<script src="script/index.js"></script>	
+  
+  <!-- script for tab -->
+
+  <script>
+    // function for video
+   const button = document.querySelectorAll('.play')
+   let i;
+   for( i = 0; i<button.length; i++ ){
+     console.log(i)
+     
+     
+     
+     
+     button[i].addEventListener('click' , function(){
+      const currentTarget = document.querySelector(`[data-videoid='${this.dataset.videoid}']`)
+      
+      
+      const video = document.querySelector(`#${this.dataset.videoid}`)
+        if(video.paused === false ){
+          video.pause()
+          currentTarget.innerHTML = `<i class="fas fa-play text-white"></i>`;
+        }
+        else{
+          video.play()
+          currentTarget.innerHTML = `<i class="fas fa-pause text-white"></i>`;
+        }
+    })
+   }
+  
+  // function for tab
+  const openTab = (evt , id) => {
+    let i , tabContent ,  tabLinks
+    
+    tabContent = document.querySelectorAll('.container-tab-content')
+
+    for( i = 0 ; i < tabContent.length ; i++  ){
+      tabContent[i].style.cssText ="display : none !important";
+    }
+
+    tabLinks = document.querySelectorAll('.tab-links')
+    for(i = 0 ; i < tabLinks.length; i++ ){
+       tabLinks[i].className = tabLinks[i].className.replace('active' , '' );
+    }
+
+    document.querySelector(`#${id}`).style.display = 'flex'
+    evt.currentTarget.className += ' active'
+
+
+
+  }
+  </script>
+  
+</body>
+</html>
