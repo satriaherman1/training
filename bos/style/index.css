@@ -1,0 +1,391 @@
+
+
+/* smooth scrolling */
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}   
+/* end smooth scrolling */
+
+/* reset overflow */
+
+body{
+    overflow-x: hidden;
+}
+/*  */
+
+
+/* top nav */
+nav{
+    background: #274C77;
+    padding: 10px 0;
+}
+
+#user{
+    border: 2px solid #fff;
+    border-radius: 100px;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand .nav-text h3{
+    font-size: 17px;
+    color: #fff;
+}
+
+.navbar-brand .nav-text p{
+    font-size: 14px;
+    color: #fff !important;
+
+}
+
+/* end navbar */
+
+/* tab */
+
+.container-tab-content{
+    display: none;
+}
+
+.tab{
+    display: flex;
+    overflow-x: visible !important;
+    width: 100%;
+    white-space: nowrap;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.tab button{
+    width: 90%;
+    margin-left: 30px;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    background: #1E4588;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.tab .tab-links.active{
+    background: none !important;
+    color: #1E4588 !important;
+    border-bottom: 3px solid #1E4588;
+    border-radius: 0;
+    font-weight: 500;
+
+}
+
+ .tab-links:nth-child(1){
+    margin-left: 0 !important;
+}
+
+.tab-links:nth-child(last){
+    margin-right: 8px;
+}
+
+
+/* iklan */
+.iklan-container{
+    
+    background: #A7BEE5;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 20px 0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+ 
+}
+
+/* end bagian slide iklan */
+
+
+/* uu search */
+#searchUU{
+    outline: none;
+    width: 60%;
+    padding: 3px 10px;
+    background: #CAD8F1;
+    border: 2.1px solid #fff;
+}
+
+#filter , #sort{
+    margin: 20px 0;
+    padding: 2px 12px;
+    background: none;
+    color: #1E4588;
+    border-radius: 4px;
+    outline: none;
+    border: 3px solid #1E4588 ;
+    width: 10%;
+    white-space: nowrap;
+}
+
+#submit{
+    margin: 20px 0;
+    margin-left: 10px;
+    background: #1E4588;
+    color: #fff;
+    padding: 0 20px;
+    border: none;
+    width: 9%;
+    outline: none;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+/* end search */
+
+
+/* table */
+thead{
+    border: 3px solid #A7BEE5;
+    box-sizing: border-box;
+    padding: 2px 9px;
+    border-radius: 10px !important;
+}
+
+thead tr td{
+    white-space: nowrap;
+}
+
+
+.unduh{
+    padding: 6px 20px;
+    border: none;
+    background: #1E4588;
+    color: #fff;
+    outline: none;
+    border-radius: 6px;
+}
+
+/* end table */
+
+
+/* end tab */
+
+/* carousel */
+  
+
+.carousel-image{
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-caption{
+  
+    z-index: 4;
+}
+
+
+/* carousel2 */
+.carousel-img-2{
+    background-image: url('../img/carousel/bhabin2.svg');
+    width: 100%;
+    height: 550px !important;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-image::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7) , rgba(0,0,0,0.2) );
+   
+}
+/* end carousel */
+
+
+
+
+/* services */
+
+.services{
+    padding: 15px 0;
+    background:#274C77 ;
+}
+
+/* end services */
+
+
+
+/* button to top */
+a.button-top{
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    z-index: 5;
+}
+/* end button to top */
+
+/* slick */
+
+
+.slick-item{
+    box-shadow: 2px 2px 3px #333;
+    padding: 50px;
+    background: rgb(148, 148, 148);
+    border-radius: 10px;
+    color: blue;
+   margin-left: 20px;
+}
+
+.slick-prev::before{
+    content: '';
+    color: blue !important;
+}
+.slick-next::before{
+    content: '';
+    color: blue !important;
+}
+
+#slick .card {
+    position: relative;
+    z-index: 1;
+}
+
+
+#slick .card::after{
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top , rgba(0,0,0,.7) , rgba(0,0,0,.3) );
+    z-index: 2;
+    position: absolute;
+    z-index: 1;
+}
+/* end slick */
+
+
+/* button play */
+.play{
+    border: none;
+    border-radius: 100px;
+    background: #1E4588;
+    width: 45px;
+    height: 45px;
+    outline: none;
+    margin-bottom: 12px !important;
+    padding: none !important;
+}
+
+.play:focus {
+    outline: none;
+    background:#224e99;
+}
+/* end button play */
+
+/* footer */
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #fff;
+    white-space: nowrap;
+}
+.footer-item{
+    width: 100%;
+}
+
+.container-footer1 , .container-footer2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-footer1 p , .container-footer2 p{
+    padding: 7px 10px;
+    color: #333;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container-footer1 p::after , .container-footer2 p::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 3px;
+    height: 80%;
+    width: 1px;
+    background: #000;
+}
+
+
+/* end footer */
+
+
+/* responsive size */
+@media screen and (max-width:768px){
+
+    /* top nav */
+    .nama-atas{
+        visibility: hidden;
+    }
+
+    /* end top nav */
+
+    .carousel-img{
+        height: 100% !important;
+        width: 100%;
+    }
+
+
+
+    .tab-content{
+        flex-wrap: wrap;
+    }
+
+    .content-tanggal{
+        flex: 1;
+        margin-left: 0 !important;
+    }
+
+    .content-inti{
+        flex: 3;
+        margin-left: 20px !important;
+    }
+
+    /* search */
+    #searchUU{
+        width: 100%;
+    }
+
+    #filter , #sort , #submit{
+        margin: 0 7px 10px;
+        width: fit-content;
+    }
+
+    /* end search */
+
+    /* footer */
+    .container-footer1 , .container-footer2{
+        flex-direction: column;
+
+    }
+
+    .container-footer1 p , .container-footer2 p{
+        border-bottom: 1px solid #000 !important;
+        text-align: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .container-footer1 p:nth-last-child(1) , .container-footer2 p:nth-last-child(1){
+        border-bottom: 0 ;
+    }
+    /* end footer */
+
+
+}
