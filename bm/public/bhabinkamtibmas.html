@@ -17,7 +17,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <title>Binmas Online System</title>
   </head>
-  <body>
+  <body oncopy="return false" oncut="return false" onpaste="return false" onselectstart="return false;" 
+ >
     
 
     <!-- navbar -->
@@ -25,8 +26,8 @@
         <div class="container d-flex align-items-center justify-content-between" id="nav-container">
             <div class="brand">
                 <a href="" class="navbar-brand d-flex " style="align-items: center;">
-                    <img src="img/Binmas.svg" class="d-block" width="40px" alt="" srcset="">
-                    <p class="nav-text d-flex flex-column">
+                    <img src="img/logo/binmas.svg" class="d-block" width="35px" alt="" srcset="">
+                    <p class="nav-text d-flex flex-column ml-2" style="margin-left: 4px;">
                         <h5 class="text-white d-inline " style=" font-size: 15px ; position: relative;" >BINMAS Online System
                           <br><span style=" position: absolute;  font-weight: normal; font-size: 8px;"> PEMBINAAN MASYARAKAT ONLINE SISTEM </span>
                         </h5>
@@ -39,17 +40,21 @@
                       <span style="font-size: 10px; font-weight: normal;">Bhabinkamtibnas Desa Kaliwungu</span>
                       </h6>
                   </div>
-                  <img src="img/user/karno.png" id="user" width="34px" class="d-block mx-auto"  alt="" srcset="">
+                  <a href="profile.html">
+                    
+                    <img src="img/user/karno2.svg" id="user" width="34px" class="d-block mx-auto"  alt="" srcset="">
+                
+                  </a>
                 </div>
         </div>
     </nav>
 
     <!-- end navbar -->
-    <br>
-    <br>
-    <br>
+  <br>
+  <br>
+  <div class="my-3"></div>
     <!-- carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
         <ol class="carousel-indicators">
           <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
           <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
@@ -58,29 +63,29 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="carousel-image">
-              <img src="img/carousel1.jpg" class="d-block w-100 " alt="...">
+              <img src="img/carousel/carousel1.jpg" class="d-block w-100 " alt="...">
             </div>
             <div class="carousel-caption d-md-block">
-              <h5>Door to Door System (DDS)</h5>
-              <p>Giat Babhinkamtibmas    Buku 1</p>
+              <h5 style="margin-bottom: 2px !important;">Door to Door System (DDS)</h5>
+              <p style="font-weight: 200; margin-bottom: 0 !important;" >Giat Babhinkamtibmas    Buku 1</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-image">
-              <img src="img/carousel2.jpg" class="d-block w-100 carousel-image" alt="...">
+              <img src="img/carousel/carousel2.jpg" style="height: 100% !important;" class="d-block w-100 " alt="...">
             </div>
             <div class="carousel-caption  d-md-block">
-              <h5>Kegiatan Desa</h5>
-              <p>Giat Babhinkamtibmas Buku 1</p>
+              <h5 style="margin-bottom: 2px !important;" >Kegiatan Desa</h5>
+              <p style="font-weight: 200; margin-bottom: 0 !important;"  >Giat Babhinkamtibmas Buku 1</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-image">
-              <img src="img/carousel3.jpg" class="d-block w-100 carousel-image" alt="...">
+              <img src="img/carousel/carousel3.jpeg" class="d-block w-100 carousel-image" alt="...">
             </div>
             <div class="carousel-caption d-md-block">
-              <h5>Problem Solving (PS)</h5>
-              <p>Giat Babhinkamtibmas Buku 1</p>
+              <h5 style="margin-bottom: 2px !important;" >Problem Solving (PS)</h5>
+              <p style="font-weight: 200; margin-bottom: 0 !important;" >Giat Babhinkamtibmas Buku 1</p>
             </div>
           </div>
 
@@ -104,7 +109,7 @@
   
 
     <div class="py-3" style="background: #274C77;">
-        <h5 class="text-center text-white">Berita Terkini</h5>
+        <h5 class="text-center text-white">Berita Bhabin</h5>
     </div>
 
     <!-- card slick -->
@@ -112,7 +117,7 @@
    <div id="slick">
     
     <div class="card video" style="overflow: hidden;" >
-      <video src="video/video1.mp4"  id="bhabin-video1" muted="muted" width="100%"></video>
+      <video src="video/video1.mp4" loop id="bhabin-video1" muted="muted" width="100%"></video>
       <div class="card-body pb-0" style="margin-top: -69px; z-index: 3; position: relative;">
         <div class="caption d-flex justify-content-between">
           <div style="line-height: 5px ; color: aliceblue; ">
@@ -126,7 +131,7 @@
     </div>
      
     <div class="card video" style="overflow: hidden;" >
-      <video src="video/video1.mp4"  id="bhabin-video2" muted="muted" width="100%"></video>
+      <video src="video/video2.mp4"  id="bhabin-video2" muted="muted" width="100%"></video>
       <div class="card-body pb-0" style="margin-top: -69px; z-index: 3; position: relative;">
         <div class="caption d-flex justify-content-between">
           <div style="line-height: 5px ; color: aliceblue; ">
@@ -142,7 +147,7 @@
   
      
     <div class="card video" style="overflow: hidden;" >
-      <video src="video/video1.mp4"  id="bhabin-video3" muted="muted" width="100%"></video>
+      <video src="video/video3.mp4"  id="bhabin-video3" muted="muted" width="100%"></video>
       <div class="card-body pb-0" style="margin-top: -69px; z-index: 3; position: relative;">
         <div class="caption d-flex justify-content-between">
           <div style="line-height: 5px ; color: aliceblue; ">
@@ -231,6 +236,43 @@
             </div>
           </div>
         </div>
+
+        
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <p class="text-center mb-0">10/2/2021</p>
+          </div>
+
+          <div class="col-md ">
+            <div style="margin-left: 20px !important ; margin-top: 30px !important;">
+              <p style=" color: #1E4588; font-weight: bold;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+  
+                <p class="desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eaque voluptate obcaecati, saepe ullam suscipit sunt molestias dolorem voluptatem cumque voluptates totam laboriosam sint iure corporis aliquam dolores. Hic deleniti debitis nisi aut quo omnis dolores error veniam deserunt.
+                </p> 
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 py-4">
+            <p class="text-center mb-0">10/2/2021</p>
+          </div>
+
+          <div class="col-md ">
+            <div style="margin-left: 20px !important ; margin-top: 30px !important;">
+              <p style=" color: #1E4588; font-weight: bold;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+  
+                <p class="desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eaque voluptate obcaecati, saepe ullam suscipit sunt molestias dolorem voluptatem cumque voluptates totam laboriosam sint iure corporis aliquam dolores. Hic deleniti debitis nisi aut quo omnis dolores error veniam deserunt.
+                </p> 
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
 
@@ -243,8 +285,8 @@
             <div class="iklan-container">
               <div class="iklan mx-auto" style="width: 80%;">
                 <img src="img/iklan.svg"  alt="" srcset="">
-                <img src="img/iklan.svg"  alt="" srcset="">
-                <img src="img/iklan.svg"  alt="" srcset="">
+                <img src="img/iklan2.svg"  alt="" srcset="">
+                <img src="img/iklan3.svg" width="50" height="50" alt="" srcset="">
               </div>
             </div>
           </div>
