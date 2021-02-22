@@ -11,6 +11,7 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
+    <link rel="icon" href="img/logo/binmas.svg">
 
     <title>Login</title>
     <link rel="stylesheet" href="style/login.css">
@@ -22,8 +23,8 @@
     <div class="container">
         <div class="box shadow p-1 border-0">
             <div class="header d-flex align-items-center justify-content-center">
-                <img src="img/logo/binmas.svg" class="d-block mr-2"  width="40px" alt="" srcset="">
-                <div style="height: fit-content; margin-left: 20px; " >
+                <img src="img/logo/binmas.svg" class="d-block mr-2"  width="87px" alt="" srcset="">
+                <div style="height: fit-content; margin-left: 6px; " >
                     <h2 style="font-size: 19px; font-weight: bold !important; color: #fff;">Binmas Online System</h2>
                     <p style="font-size: 11px; margin-bottom: 0; color: #fff;">PEMBINAAN MASYARAKAT ONLINE SISTEM</p>
                 </div>
@@ -35,13 +36,13 @@
 
               <!-- input -->
               <div class="form-group username mx-auto d-flex align-items-center">
-                  <input type="text" placeholder=" masukkan id akun anda">
+                  <input type="text" placeholder=" masukan akun anda">
               </div>
 
 
               <div class="form-group password mt-3">
                 
-                  <input type="password" placeholder=" masukkan password anda" id="password">
+                  <input type="password" placeholder=" masukan password anda" id="password">
                   <i class="fas fa-eye-slash" onclick="hide_password()" style=" display: none; position: absolute; right: 5%; top: 50%; transform: translateY(-50%); cursor: pointer;"></i>
                   <i class="far fa-eye"class="show_password" onclick="show_password()" style="position: absolute; right: 5%; top: 50%; transform: translateY(-50%); cursor: pointer;"></i>
               </div>
@@ -49,9 +50,18 @@
 
               <br>
 
-              <div class="form-group button " style="border: 0 !important;">
+              <div class="form-group button " style="border: 0 !important; background: none !important;">
                 <button onclick="document.location.href='bhabinkamtibmas.html'" style="background: #74DBA5; border-radius: 7px; color: #333; font-weight: 500;" >Masuk</button>
-                <button  onclick="document.location.href='bhabinkamtibmas.html'" class="ml-4" style=" border-radius: 8px; background: #A0B8E0; color: #1E4588; font-weight: 500;"   >Daftar</button>
+                <div class="dropdown " style="margin-left: 10px; width: 47%;">
+                  <button style="width: 100%; border-radius: 7px; background: #1E4588;" class="btn btn-primary  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Daftar
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="bhabinkamtibmas.html">Daftar BUJP</a></li>
+                    <li><a class="dropdown-item" href="bhabinkamtibmas.html">Daftar Satpam</a></li>
+                  
+                  </ul>
+                </div>
               </div>
             </form>
         </div>

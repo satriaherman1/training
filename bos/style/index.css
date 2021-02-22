@@ -1,5 +1,3 @@
-
-
 /* smooth scrolling */
 html{
     scroll-behavior: smooth;
@@ -10,6 +8,7 @@ html{
 /* reset overflow */
 
 body{
+    background: rgb(208, 229, 242);
     overflow-x: hidden;
 }
 /*  */
@@ -44,6 +43,44 @@ nav{
 }
 
 /* end navbar */
+
+
+/* ===== search bar ======= */
+
+.search-box{
+    box-shadow: 1px 1px 15px rgb(165, 165, 165);
+}
+
+#search{
+    width: 95%;
+    box-sizing: border-box;
+    padding: 10px 20px !important;
+    
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+#search:focus{
+    outline: none;
+}
+
+
+/* ===== end search baf ====== */
+
+
+/* news */
+
+.news-title{
+    font-size: 23px;
+    color: #333;
+    font-weight: 500;
+}
+
+.news-description{
+    font-size: 13px;
+}
+/* end news */
 
 /* tab */
 
@@ -92,10 +129,10 @@ nav{
 /* iklan */
 .iklan-container{
     
-    background: #A7BEE5;
+    background: #ffffff;
     box-sizing: border-box;
     width: 90%;
-    padding: 20px 0;
+    padding: 0px 0 20px;
     margin-left: auto !important;
     margin-right: auto !important;
  
@@ -204,7 +241,11 @@ thead tr td{
 /* end carousel */
 
 
-
+/* information */
+.box-information{
+    overflow-x: visible;
+}
+/* end information */
 
 /* services */
 
@@ -285,6 +326,13 @@ a.button-top{
 }
 /* end button play */
 
+/* social media and service center */
+.box-information{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 /* footer */
 .head{
     display: flex;
@@ -326,26 +374,68 @@ a.button-top{
 /* end footer */
 
 
-/* responsive size */
+
+/* medium device : tab , tablet */
+@media screen and ( max-width : 1230px){
+    .box-information div div p{
+        line-height: normal !important;
+    }
+}
+
+/* small device */
 @media screen and (max-width:768px){
+     
 
     /* top nav */
+    nav{
+        padding: 10px 0;
+    }
+
+    .nav-left{
+      justify-content:flex-end !important;
+    }
+
+    .nav-text-large{
+        font-size: 17px !important;
+    }
+
+    .nav-text-small{
+        font-size: 9px !important;
+    }
+
+
     .nama-atas{
-        visibility: hidden;
+        display: none;
+    }
+
+    .logo{
+        width: 43px !important;
+    }
+
+    #user{
+        width: 43px !important;
     }
 
     /* end top nav */
 
+    /* carousel */
     .carousel-img{
         height: 100% !important;
         width: 100%;
     }
 
+    .image-carousel{
+        height: 170px;
+    }
 
-
+     /* tab */
+    .tab{
+        width: 100% !important;
+    }
     .tab-content{
         flex-wrap: wrap;
     }
+    /* end tab */
 
     .content-tanggal{
         flex: 1;
@@ -358,6 +448,36 @@ a.button-top{
     }
 
     /* search */
+    .search-box img{
+        width: 14% !important;
+        height: 100% !important;
+    }
+
+    /* end search */
+
+    /* news */
+    small{
+        font-size: 10px;
+    }
+    
+    .news-date{
+        margin-bottom: 5px;
+    }
+
+    .news-image{
+        width: 60px;
+        height: 60px;
+    }
+
+    .news-title{
+        font-size: 15px;
+    }
+    .news-description{
+        display: none;
+    }
+    /* end news */
+
+    /* search */
     #searchUU{
         width: 100%;
     }
@@ -368,6 +488,102 @@ a.button-top{
     }
 
     /* end search */
+
+    /* head for service and call center */
+    .head-information{
+        border-bottom: 2.3px solid #224e99 ;
+        background: none !important;
+        color: #333;
+        border-radius: 0 !important;
+
+    }
+    .box-information{
+        flex-direction: column;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+   
+
+    .box-information div {
+        padding: 8px 15px !important;
+        white-space: nowrap;
+        border: 2px solid #A7BEE5;
+        border-radius: 10px;
+        width: fit-content;
+        display: flex;
+        margin-left: 0px !important ;
+        width: 100% !important;
+        margin-top: 10px;
+        background: #fff ;
+    }
+
+
+    .box-information:nth-child(odd) div{
+        margin-left: 10px !important;
+    }
+
+   
+    .box-information div p{
+        margin-top: 7px !important;
+        font-size: 13px !important;
+        margin-bottom: 1px !important;
+        text-align: left !important;
+        line-height: 15px !important;
+    }
+
+    .head-information p{
+        color: #333 !important;
+    }
+
+    .box-service{
+        flex-wrap: wrap;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
+
+    .box-service div{
+        display: flex;
+        padding: 8px 12.8px !important;
+        width: 49% !important;
+
+        
+    }
+    
+
+    /* every service contact element */
+    .box-information  div div{
+        border: none !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px !important;
+        line-height: 4px;
+        padding-left: 0px !important;
+        text-align: left !important;
+       margin-top: 0 !important;
+       
+    }
+
+    .box-service div:nth-child(3n){
+        margin-top: 10px;
+        width: 100% !important;
+        justify-content: center;
+    }
+
+    .box-service div img{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+
+  
+    .box-service div div p{
+        text-align: left !important;
+        margin-bottom: 9px !important;
+        line-height: 6px !important;
+    }
+    
+    /* end head for service and call center */
 
     /* footer */
     .container-footer1 , .container-footer2{
@@ -385,6 +601,19 @@ a.button-top{
     .container-footer1 p:nth-last-child(1) , .container-footer2 p:nth-last-child(1){
         border-bottom: 0 ;
     }
+
+    
+    .container-footer1 p::after , .container-footer2 p::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0px;
+        height: 100%;
+        width: .4px;
+        background: #000;
+    }
+
+
     /* end footer */
 
 
